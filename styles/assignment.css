@@ -2,13 +2,12 @@
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 body {
-  margin: 0;
+padding: 0px 100px 0 150px ;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f7f9ff;
   color: #333;
@@ -100,8 +99,8 @@ body {
 /* section review */
 .section{
   text-align: center;
-  padding: 40px 50px;
-  width: 100%;
+  padding: 50px 50px;
+  width: 95%;
 }
 h2{
   color: #4E47FF;
@@ -198,16 +197,18 @@ h2{
 }
 /* section form */
 .form{
+  background-color: #eae9e9;
+  border-radius: 20px;
   display:flex;
-  justify-content: space-evenly;
+  justify-content:space-between;
   max-width: 1140px;
-  margin: 200px;
+  margin: 9px;
   padding: 0px 150px;
 }
-h2{
-  font-size: 80px;
+.hf{
   font-weight: bold;
   color: #000;
+  font-size: 80px;
 
 }
 p{
