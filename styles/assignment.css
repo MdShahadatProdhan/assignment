@@ -99,14 +99,14 @@ body {
 }
 /* section form */
 .form{
-  display: flex;
+  display:flex;
   justify-content: space-evenly;
   max-width: 1140px;
-  gap: 10px;
   margin: 200px;
+  padding: 0px 150px;
 }
 h2{
-  font-size: 120px;
+  font-size: 80px;
   font-weight: bold;
   color: #000;
 
@@ -114,6 +114,11 @@ h2{
 p{
   color: #000;
   font-weight: 18px;
+}
+.gap{
+  gap: 10px;
+  color: #D6DDED;
+  
 }
 
 /* footer */
