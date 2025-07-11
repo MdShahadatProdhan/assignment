@@ -97,6 +97,25 @@ body {
   width: 100%;
   max-width: 400px;
 }
+/* section form */
+.form{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1140px;
+  gap: 10px;
+  margin: 200px;
+}
+h2{
+  font-size: 120px;
+  font-weight: bold;
+  color: #000;
+
+}
+p{
+  color: #000;
+  font-weight: 18px;
+}
+
 /* footer */
 h1{
     color: #4E47FF;
