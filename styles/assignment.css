@@ -97,6 +97,36 @@ body {
   width: 100%;
   max-width: 400px;
 }
+/* section review */
+.section{
+  text-align: center;
+  padding: 40px 50px;
+  width: 100%;
+}
+h2{
+  color: #4E47FF;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.item{
+  min-width: 150px;
+}
+.number{
+  font-size: 52px;
+  font-weight: 700;
+  color:#4E47FF;
+}
+.label{
+  color: #0f1112;
+  font-size: 16px;
+  margin: 5px 0 0;
+}
 /* section form */
 .form{
   display:flex;
